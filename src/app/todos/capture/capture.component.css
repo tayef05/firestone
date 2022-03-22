@@ -1,0 +1,41 @@
+label {
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #ff1100;
+}
+
+form > div {
+  display: flex;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+
+input,
+select {
+  height: 26px;
+  border-radius: 3px;
+  border: none;
+  padding: 3px 10px;
+  outline-width: 0;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px 0;
+  height: auto;
+}
+.capital {
+  text-transform: capitalize;
+}
+::placeholder,
+select,
+input {
+  color: #00bcd4;
+}
+input[type="submit"].submit {
+  font-weight: 700;
+}
+input[type="submit"].b_invalid {
+  font-weight: 900;
+  color: rgba(255, 0, 0, 0.6);
+}

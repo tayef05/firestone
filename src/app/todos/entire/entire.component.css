@@ -1,0 +1,14 @@
+.hidden {
+  visibility: hidden;
+}
+ul {
+  list-style: none;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+
+li {
+  color: #7e22ce;
+  font-size: 25px;
+}

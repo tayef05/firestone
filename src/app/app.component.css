@@ -1,5 +1,14 @@
-h1 {
-  text-align: center;
-  font-size: 35px;
-  color: #673ab7;
+.capture {
+  width: 33.3%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.w-50 {
+  width: 50%;
+}
+div#entire {
+  padding-top: 20px;
+  margin-left: 20px;
 }
